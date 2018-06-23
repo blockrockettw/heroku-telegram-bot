@@ -16,5 +16,5 @@ updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
 updater.start_webhook(listen="0.0.0.0",
                       port=PORT,
                       url_path=TOKEN)
-updater.bot.setWebhook("https://telegrambotexample31337.herokuapp.com/" + TOKEN)
+updater.bot.setWebhook("https://blockrocket-welcome-bot.herokuapp.com/" + TOKEN)
 updater.idle()
